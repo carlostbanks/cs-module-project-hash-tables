@@ -194,8 +194,6 @@ class HashTable:
                 self.put(current_node.get_key(), current_node.get_value())
                 current_node = current_node.get_next()
 
-
-
 if __name__ == "__main__":
     ht = HashTable(8)
 
